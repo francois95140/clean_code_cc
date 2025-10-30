@@ -7,7 +7,7 @@ describe("Sample Test", () => {
   });
 });
 describe("Test Brelan", () => {
-  it("should return give [[1,2,3,4,6],[1,2,3,4,6]] pass", () => {
-    expect(yamsScore([[1,2,3,4,6],[1,2,3,4,6]])).toBe(32);
+  it("should return 32 give [[1,2,3,4,6],[1,2,3,4,6]] ", () => {
+    expect(yamsScore([[1,2,2,4,5],[1,2,2,4,5]])).toBe(28);
   });
 });
